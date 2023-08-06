@@ -1,0 +1,105 @@
+
+
+
+
+#bodyinicio{
+    background-color: black;
+    padding: 0;
+    margin: 0;    
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+}
+
+
+#topinicio{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#logoinicio{
+position: relative;
+top: 30px;
+left: -50px;
+}
+
+#fotosinicio{
+width: 100%;
+border: 2px solid rgb(44, 44, 44);
+border-radius: 6px;
+transition: 0.6s ease;
+opacity: 80%;
+z-index: 1;
+position: relative;
+
+}
+
+#fotosinicio:hover{
+    transform: scale(108%);
+    opacity: 100%;
+    z-index: 2;
+    
+}
+
+
+#divinicio{
+    display: flex;
+    position: relative;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    
+
+}
+
+
+.divfotosinicio span{
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+    
+
+}
+
+.divfotosinicio:hover span  {
+    display: block;
+    opacity: 0.7;
+    z-index: 2;
+    transform: scale(500%);
+    left: 10px;
+}
+
+span {
+    color: rgb(160, 159, 159);
+    position: absolute;
+    transition: 1s ease;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    -webkit-text-stroke: 0.3px rgb(3, 3, 3);
+    }
+
+    #span1 {
+        left: 200px;
+        bottom: 50px;
+    }
+#span2 {
+    left: 650px;
+    bottom: 50px;
+}
+
+#span3{
+    left: 1130px;
+    bottom: 50px;
+}
+
+#span4{
+    left: 1580px;
+    bottom: 50px;
+}
