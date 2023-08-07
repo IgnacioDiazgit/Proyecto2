@@ -1,7 +1,7 @@
 
 
 
-
+/* Inicio */
 #bodyinicio{
     background-color: black;
     padding: 0;
@@ -12,7 +12,6 @@
     position: relative;
     left: 2.5%;
 }
-
 
 #topinicio{
     background-color: black;
@@ -41,30 +40,25 @@ position: relative;
     transform: scale(108%);
     opacity: 100%;
     z-index: 2;
-    
 }
 
 
 #divinicio{
     display: flex;
+    width: 100%;
     position: relative;
     margin: 0px;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     padding: 0;
-    
-
 }
 
 
 .divfotosinicio span{
     display: none;
     position: absolute;
-    transform: translate(-50%, -50%);
     opacity: 0%;
-    
-
 }
 
 .divfotosinicio:hover span  {
@@ -84,11 +78,11 @@ span {
     cursor: pointer;
     -webkit-text-stroke: 0.3px rgb(3, 3, 3);
     }
+ #span1 {
+   left: 200px;
+   bottom: 50px;
+}
 
-    #span1 {
-        left: 200px;
-        bottom: 50px;
-    }
 #span2 {
     left: 650px;
     bottom: 50px;
@@ -102,4 +96,45 @@ span {
 #span4{
     left: 1580px;
     bottom: 50px;
+}
+
+
+/* ESTILOS GALERIAS  */
+
+.bodygaleria{
+    background-color: black;
+    width: 95%;
+    left: 2.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center; 
+    display: block;
+    position: relative;
+ 
+}
+
+.contenedorgaleria{
+    display: flex;
+    padding: 5px;
+    background-color: black;
+}
+.galeria {
+    flex: 25%;
+    padding: 5px;
+}
+.columnagaleria{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    border: 2px solid rgb(44, 44, 44)  ;
+    border-radius: 7px;
+    transition: 0.2s ease;
+    z-index: 1;
+}
+
+.columnagaleria:hover{
+    transform: scale(103%);
+    z-index: 2;
 }
